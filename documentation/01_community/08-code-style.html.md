@@ -160,7 +160,7 @@ Spaces *should* be used before the opening brackets of `if`, `for`, `while` and 
 Use lowerCamelCases for function parameters and use `this` to explicitly reference to class members (only when neccessary):
 
 ``` haxe
-function translate(words:String, bableFish:BableFish):Void
+function translate(words:String, babelFish:BabelFish):Void
 {
 	this.words = words;
 }
@@ -314,7 +314,7 @@ as opposed to:
 @:isVar @:allow(flixel.tweens.FlxTween) private static var pool(get, null):FlxPool<MultiVarTween>;
 ```
 
-However, if there are two many of these sections it be worth considering to split the function into several smaller ones.
+However, if there are too many of these sections it may be worth considering to split the function into several smaller ones.
 
 There shouldn't be more than one empty line to separate sections.
 
